@@ -1,7 +1,8 @@
 import typer
+
 from astromod import astromod
 
-app = typer.Typer
+app = typer.Typer()
 
 #Submodules
 app.add_typer(astromod, name="astromod")
